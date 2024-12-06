@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
+//import Image from "next/image";
 
 export default function Home() {
-	const [menuOpen, setMenuOpen] = useState(false);
-	const [messageInput, setMessageInput] = useState('');
+	const [setMenuOpen] = useState(false);
+	//const [messageInput] = useState('');
   
 	// Toggle the menu when called
 	const toggleMobileMenu = () => {
@@ -29,7 +29,7 @@ export default function Home() {
 					<a href="#projects">Projects</a>
 				</li>
 				<li>
-					<a href="mailto:hello@adriantwarog.com" class="button">Contact Me</a>
+					<a href="mailto:hello@adriantwarog.com" className="button">Contact Me</a>
 				</li>
 			</ul>
 			<a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
@@ -43,7 +43,7 @@ export default function Home() {
 		<section className="hero container">
 			<div className="hero-blue">
 				<div>
-					<h1><small>Hi I'm</small>
+					<h1><small>Hi I am</small>
 						Paavanaa D L
 					</h1>
 					<p>
@@ -118,10 +118,10 @@ export default function Home() {
 				<div className="right-column">
 					<h3>A bit about me</h3>
 					<p>
-						Hi, I am Paavanaa, a student with a keen interest in learning new technologies and solving problems.<p>I enjoy exploring front-end and back-end development, as well as designing intuitive user interfaces. My passion for data analysis drives me to work with data, uncovering insights that inform decision-making and improve user experiences.</p> 
+						Hi, I am Paavanaa, a student with a keen interest in learning new technologies and solving problems.I enjoy exploring front-end and back-end development, as well as designing intuitive user interfaces. My passion for data analysis drives me to work with data, uncovering insights that inform decision-making and improve user experiences.</p> 
 
 
-					</p>
+					
 				</div>
 			</div>
 		</section>
